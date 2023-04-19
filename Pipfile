@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+djitellopy = {path = "./djitellopy-2.4.0-py3-none-any.whl"}
+pandas = "*"
+imutils = "*"
+ipython = "*"
+matplotlib = "*"
+pyqt6 = "*"
+openpyxl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
